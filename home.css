@@ -1,0 +1,247 @@
+.logo{
+height: 100px;
+width: 170px;
+padding: 20px;
+background-color: antiquewhite;
+border-radius: 50px;
+}
+.navbar{
+    height: 80px;
+    background-color: #36454f;
+}  
+.collapse{
+    margin-left: 950px;
+}
+.navbar-collapse {
+    display: flex;
+    flex-basis: auto;
+}
+.nav-link{
+  color: white;
+  font-size: 1.2rem;
+  font-style:italic;
+}
+.hero-section {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 89vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    filter: brightness(90%);
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(42, 46, 48, 0.5);
+    z-index: 1;
+}
+
+.hero-content {
+    z-index: 2;
+    margin-bottom: 200px;
+    font-style: italic;
+    align-self: last baseline;
+}
+ .btt {
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(75, 86, 100);
+    margin-top: 30px;
+    width: 120px;
+}
+.btt:hover{
+    box-shadow: 30px 0 100px white, -40px 0 100px darkgrey;
+    transition: 1s;
+}
+.about-section {
+    padding: 40px;
+    border-radius: 15px;
+  }
+  .about-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  .about-description {
+    color: #666;
+    margin-top: 15px;
+    font-size: 1.3rem;
+    text-align: justify;
+  }
+  .about-stats {
+    margin-top: 30px;
+  }
+  .stat {
+    font-weight: bold;
+    color: #f5631b;
+  }
+  .stat-desc {
+    font-size: 0.9rem;
+    color: #333;
+  }
+  .image-container img {
+    width: 550px;
+    height: 400px;
+    border-radius: 25px;
+    margin-left: 100px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.6);
+  }
+  .service-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 600px;
+    height: 530px;
+  }
+
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .service-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    width: 100%;
+  }
+
+  .service-card-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .service-card-text {
+    font-size: 1.3rem;
+    color: #666;
+  }
+  .btta {
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    margin-top: 30px;
+    width: 120px;
+    background-color: #f5631b;
+    text-decoration: none;
+  }
+  .client-section {
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  .client-section h2 {
+    font-size: 1.5rem;
+    color: #ff6600; /* Orange color */
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .client-logo {
+    max-width: 150px;
+    max-height: 80px;
+    filter: grayscale(0);
+    transition: filter 0.3s ease-in-out;
+  }
+
+  .client-logo:hover {
+    filter: grayscale(70%);
+  }
+  .ind-card{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .ind-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .ind-card img {
+    border-radius: 15px;
+    height: 200px;
+    width: 100%;
+  }
+   /* Footer styling */
+   .footer {
+    position: relative;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,53,147,1) 53%, rgba(252,176,69,1) 100%, rgba(247,173,71,1)100%);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    }
+
+    .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+
+    /* Footer section */
+    .footer-section {
+    flex: 1;
+    margin: 1rem;
+    min-width: 200px;
+    }
+
+    .footer-section h3 {
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    }
+
+    .footer-section p, .footer-section ul {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    }
+
+    .footer-section ul {
+    list-style: none;
+    padding: 0;
+    }
+
+    .footer-section ul li {
+    margin: 0.5rem 0;
+    }
+
+    .footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    }
+
+    .footer-section ul li a:hover {
+    color: white;
+    }
+
+    /* Social Media Icons */
+    .footer-section.social a {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    }
+
+    .footer-section.social a:hover {
+    color: white;
+    }
+
+    /* Footer bottom text */
+    .footer-bottom {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: white;
+    }
