@@ -172,29 +172,35 @@
   .client-logo:hover {
     filter: grayscale(70%);
   }
-  .ind-card{
+  .ind-card {
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 10px;
   }
-  .ind-card:hover{
+  
+  .ind-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
+  
   .ind-card img {
-    border-radius: 15px;
-    height: 200px;
+    border-radius: 10px;
+    height: auto;
     width: 100%;
   }
-  @media (max-width: 768px) {
-    .ind-card {
-      width: 90%; 
-      margin: 15px auto; 
-    }
   
+  /* Responsive Adjustments */
+  @media (max-width: 576px) {
     .ind-card img {
-      height: auto; 
+      height: 150px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .ind-card img {
+      height: 180px;
     }
   }
    /* Footer styling */
