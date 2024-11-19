@@ -1,47 +1,13 @@
-.logo{
-height: 100px;
-width: 170px;
-padding: 20px;
-background-color: antiquewhite;
-border-radius: 50px;
+.navbar-brand img {
+  height: 40px;
+  background-color: #fff;
+  border-radius: 25px;
 }
 .navbar{
-    height: 80px;
-    background-color: #36454f;
-}  
-.collapse{
-    margin-left: 950px;
-}
-.navbar-collapse {
-    display: flex;
-    flex-basis: auto;
+  background-color: #36454f;
 }
 .nav-link{
   color: white;
-  font-size: 1.2rem;
-  font-style:italic;
-}
-@media (max-width: 768px) {
-  .logo {
-    height: 70px; /* Smaller logo size */
-    width: 120px;
-    padding: 5px; /* Compact padding */
-  }
-
-  .navbar {
-    height: auto; /* Allow height adjustment */
-    padding: 10px;
-  }
-
-  .nav-link {
-    font-size: 0.9rem; /* Reduce font size further for smaller screens */
-    padding: 8px;
-  }
-
-  .collapse {
-    margin-left: 0; /* Ensure alignment */
-    flex-direction: column; /* Stack navigation links */
-  }
 }
 .hero-section {
     background-image: url('images/background.jpg');
@@ -120,9 +86,9 @@ border-radius: 50px;
   }
   @media (max-width: 768px) {
     .image-container img {
-      max-width: 100%; /* Allow the image to scale for smaller screens */
-      box-shadow: none; /* Optional: Simplify design on mobile */
-      margin: 0 auto; /* Center the image */
+      max-width: 100%; 
+      box-shadow: none; 
+      margin: 0 auto;
     }
   }
   .service-card {
@@ -167,21 +133,21 @@ border-radius: 50px;
   }
   @media (max-width: 768px) {
     .service-card {
-      width: 90%; /* Reduce width for smaller devices */
-      margin: 10px auto; /* Add spacing between cards */
+      width: 90%; 
+      margin: 10px auto; 
     }
   
     .service-card-title {
-      font-size: 1.2rem; /* Smaller font size for titles */
+      font-size: 1.2rem;
     }
   
     .service-card-text {
-      font-size: 0.9rem; /* Reduce text size for readability */
+      font-size: 0.9rem; 
     }
   
     .btta {
-      width: 80px; /* Reduce button width for smaller screens */
-      font-size: 0.9rem; /* Adjust text size */
+      width: 80px; 
+      font-size: 0.9rem; 
     }
   }
   .client-section {
@@ -191,7 +157,7 @@ border-radius: 50px;
 
   .client-section h2 {
     font-size: 1.5rem;
-    color: #ff6600; /* Orange color */
+    color: #ff6600; 
     font-weight: bold;
     margin-bottom: 30px;
   }
@@ -223,12 +189,12 @@ border-radius: 50px;
   }
   @media (max-width: 768px) {
     .ind-card {
-      width: 90%; /* Adjust width for smaller screens */
-      margin: 15px auto; /* Reduce spacing for better fit */
+      width: 90%; 
+      margin: 15px auto; 
     }
   
     .ind-card img {
-      height: auto; /* Ensure proper scaling */
+      height: auto; 
     }
   }
    /* Footer styling */
