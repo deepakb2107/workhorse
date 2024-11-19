@@ -21,6 +21,28 @@
         font-size: 1.2rem;
         font-style:italic;
     }
+    @media (max-width: 768px) {
+        .logo {
+          height: 70px; /* Smaller logo size */
+          width: 120px;
+          padding: 5px; /* Compact padding */
+        }
+      
+        .navbar {
+          height: auto; /* Allow height adjustment */
+          padding: 10px;
+        }
+      
+        .nav-link {
+          font-size: 0.9rem; /* Reduce font size further for smaller screens */
+          padding: 8px;
+        }
+      
+        .collapse {
+          margin-left: 0; /* Ensure alignment */
+          flex-direction: column; /* Stack navigation links */
+        }
+      }
     .hero-section {
         background-image: url('images/aboutush.jpg');
         background-size: cover;
@@ -89,6 +111,14 @@
         margin-left: 50px;
         box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.6);
     }
+    @media (max-width: 768px) {
+        .image-section img {
+          width: 90%; /* Reduce width for smaller screens */
+          max-width: none; /* Allow flexibility for width */
+          margin: 15px auto; /* Adjust spacing for mobile view */
+          box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4); /* Soften the shadow for smaller screens */
+        }
+      }
     .ind-card{
         border: 1px solid #ddd;
         border-radius: 10px;
@@ -103,6 +133,16 @@
         border-radius: 15px;
         height: 200px;
         width: 100%;
+      }
+      @media (max-width: 768px) {
+        .ind-card {
+          width: 90%; /* Adjust width for smaller screens */
+          margin: 15px auto; /* Reduce spacing for better fit */
+        }
+      
+        .ind-card img {
+          height: auto; /* Ensure proper scaling */
+        }
       }
      /* Footer styling */
    .footer {

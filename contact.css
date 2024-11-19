@@ -21,6 +21,28 @@
         font-size: 1.2rem;
         font-style:italic;
     }
+    @media (max-width: 768px) {
+        .logo {
+          height: 70px; /* Smaller logo size */
+          width: 120px;
+          padding: 5px; /* Compact padding */
+        }
+      
+        .navbar {
+          height: auto; /* Allow height adjustment */
+          padding: 10px;
+        }
+      
+        .nav-link {
+          font-size: 0.9rem; /* Reduce font size further for smaller screens */
+          padding: 8px;
+        }
+      
+        .collapse {
+          margin-left: 0; /* Ensure alignment */
+          flex-direction: column; /* Stack navigation links */
+        }
+      }
     .hero-section {
         background-image: url('images/contact.jpg');
         background-size: cover;
@@ -100,6 +122,13 @@
     .map{
         margin-left: 450px;
     }
+    @media (max-width: 768px) {
+        .map {
+          margin-left: 0; /* Remove left margin */
+          margin-right: 0; /* Remove right margin */
+          width: 100%; /* Make the map take up full width */
+        }
+      }
      /* Footer styling */
    .footer {
     position: relative;
