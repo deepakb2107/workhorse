@@ -46,6 +46,7 @@
     background-color: rgb(75, 86, 100);
     margin-top: 30px;
     width: 120px;
+    text-decoration: none;
 }
 .btt:hover{
     box-shadow: 30px 0 100px white, -40px 0 100px darkgrey;
