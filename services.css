@@ -58,6 +58,9 @@
         line-height: 1.8;
         font-size: 1.1rem;
     }
+    .aa{
+      padding: 40px;
+    }
     .image-section img {
         width: 500px;
         height: 400px;
